@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<project path="kernel/oneplus/msm8998" name="JamiKettunen/android_kernel_oneplus_msm8998" revision="staging/hybris-15.1" />
+	<project path="kernel/oneplus/msm8998" name="JamiKettunen/android_kernel_oneplus_msm8998-stable" revision="hybris-15.1" />
 
-	<project path="device/oneplus/msm8998-common" name="JamiKettunen/android_device_oneplus_msm8998-common" revision="staging/hybris-15.1" />
+	<project path="device/oneplus/msm8998-common" name="JamiKettunen/android_device_oneplus_msm8998-common" revision="hybris-15.1" />
 
 	<project path="device/oppo/common" name="LineageOS/android_device_oppo_common" />
 	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
@@ -12,11 +12,6 @@
 
 	<project path="vendor/oneplus" name="JamiKettunen/proprietary_vendor_oneplus_msm8998" />
 
-	<!--<project path="external/libhybris" name="mer-hybris/libhybris" revision="refs/tags/0.0.5.31" />-->
 	<project path="hybris/hybris-boot" name="JamiKettunen/hybris-boot" revision="master" />
-
-	<project path="rpm/"                                  name="JamiKettunen/droid-hal-cheeseburger"         revision="master" />
-	<project path="hybris/droid-configs"                  name="JamiKettunen/droid-config-cheeseburger"      revision="master" />
-	<project path="hybris/droid-hal-version-cheeseburger" name="JamiKettunen/droid-hal-version-cheeseburger" revision="master" />
 
 </manifest>
