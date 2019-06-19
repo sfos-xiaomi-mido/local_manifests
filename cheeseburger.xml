@@ -4,7 +4,7 @@
     <project path="kernel/oneplus/msm8998" name="JamiKettunen/android_kernel_oneplus_msm8998-stable" revision="hybris-15.1" />
 
     <project path="device/oneplus/msm8998-common" name="JamiKettunen/android_device_oneplus_msm8998-common" revision="hybris-15.1" />
-    <project path="device/oneplus/cheeseburger" name="LineageOS/android_device_oneplus_cheeseburger" />
+    <project path="device/oneplus/cheeseburger"   name="JamiKettunen/android_device_oneplus_cheeseburger"   revision="hybris-15.1" />
 
     <project path="vendor/oneplus" name="JamiKettunen/proprietary_vendor_oneplus_msm8998" />
 
