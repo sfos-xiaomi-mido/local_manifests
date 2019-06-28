@@ -9,7 +9,7 @@
     <project path="vendor/oneplus" name="JamiKettunen/proprietary_vendor_oneplus_msm8998" />
 
     <project path="external/libhybris" name="mer-hybris/libhybris"     revision="master" />
-    <project path="hybris/hybris-boot" name="JamiKettunen/hybris-boot" revision="master" />
+    <project path="hybris/hybris-boot" name="JamiKettunen/hybris-boot" revision="cheeseburger-treble" />
 
     <project path="rpm/"                                  name="JamiKettunen/droid-hal-cheeseburger"         revision="master" />
     <project path="hybris/droid-configs"                  name="JamiKettunen/droid-config-cheeseburger"      revision="master" />
