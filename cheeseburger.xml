@@ -8,9 +8,10 @@
 
     <project path="vendor/oneplus" name="sailfishos-oneplus5/proprietary_vendor_oneplus_msm8998" />
 
-    <project path="hybris/hybris-boot"  name="sailfishos-oneplus5/hybris-boot" revision="cheeseburger" />
-    <project path="external/libhybris"  name="mer-hybris/libhybris"            revision="master" />
-    <project path="external/droidmedia" name="sailfishos-oneplus5/droidmedia"  revision="audiopolicypatch" />
+    <project path="hybris/hybris-boot"        name="sailfishos-oneplus5/hybris-boot"      revision="cheeseburger" />
+    <project path="external/libhybris"        name="mer-hybris/libhybris"                 revision="master" />
+    <project path="external/droidmedia"       name="sailfishos-oneplus5/droidmedia"       revision="audiopolicypatch" />
+    <project path="external/audioflingerglue" name="sailfishos-oneplus5/audioflingerglue" revision="cheeseburger" />
 
     <project path="rpm/"                                  name="sailfishos-oneplus5/droid-hal-cheeseburger"         revision="master" />
     <project path="hybris/droid-configs"                  name="sailfishos-oneplus5/droid-config-cheeseburger"      revision="master" />
