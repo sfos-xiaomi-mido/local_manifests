@@ -19,6 +19,8 @@
 
     <project path="external/libhybris" name="mer-hybris/libhybris" revision="master" />
 
+    <project path="hybris/hybris-installer" name="sailfishos-oneplus5/hybris-installer" revision="master" />
+    
     <project path="rpm/"                                  name="sailfishos-oneplus5/droid-hal-cheeseburger"         revision="master" />
     <project path="hybris/droid-configs"                  name="sailfishos-oneplus5/droid-config-cheeseburger"      revision="master" />
     <project path="hybris/droid-hal-version-cheeseburger" name="sailfishos-oneplus5/droid-hal-version-cheeseburger" revision="master" />
