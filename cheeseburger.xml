@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <!-- Linux kernel 4.4 (Android) -->
     <project path="kernel/oneplus/msm8998" name="sailfishos-oneplus5/android_kernel_oneplus_msm8998" revision="hybris-15.1" />
 
+    <!-- Device configuration -->
     <project path="device/oneplus/msm8998-common" name="sailfishos-oneplus5/android_device_oneplus_msm8998-common" revision="hybris-15.1" />
     <project path="device/oneplus/cheeseburger"   name="sailfishos-oneplus5/android_device_oneplus_cheeseburger"   revision="hybris-15.1" />
 
+    <!-- Vendor blobs -->
     <project path="vendor/oneplus" name="sailfishos-oneplus5/proprietary_vendor_oneplus_msm8998" />
-    
-    <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
-    <project        path="hybris/hybris-boot" name="sailfishos-oneplus5/hybris-boot" revision="cheeseburger" />
-    
-    <remove-project path="external/droidmedia" name="sailfishos/droidmedia" />
-    <project        path="external/droidmedia" name="sailfishos-oneplus5/droidmedia" revision="audiopolicypatch" />
-    
-    <remove-project path="external/audioflingerglue" name="mer-hybris/audioflingerglue" />
-    <project        path="external/audioflingerglue" name="sailfishos-oneplus5/audioflingerglue" revision="cheeseburger" />
 
+
+    <!-- For libhybris >=15.1 ports -->
     <project path="external/libhybris" name="mer-hybris/libhybris" revision="master" />
 
-    <project path="hybris/hybris-installer" name="sailfishos-oneplus5/hybris-installer" revision="master" />
-    
+    <!-- Droid HAL & configs -->
     <project path="rpm/"                                  name="sailfishos-oneplus5/droid-hal-cheeseburger"         revision="master" />
     <project path="hybris/droid-configs"                  name="sailfishos-oneplus5/droid-config-cheeseburger"      revision="master" />
     <project path="hybris/droid-hal-version-cheeseburger" name="sailfishos-oneplus5/droid-hal-version-cheeseburger" revision="master" />
+
+    <!-- Overwritten with custom forks -->
+    <remove-project path="hybris/hybris-boot"        name="mer-hybris/hybris-boot" />
+    <remove-project path="external/droidmedia"       name="sailfishos/droidmedia" />
+    <remove-project path="external/audioflingerglue" name="mer-hybris/audioflingerglue" />
+
+    <!-- Custom -->
+    <project path="hybris/hybris-boot"        name="sailfishos-oneplus5/hybris-boot"      revision="cheeseburger" />
+    <project path="external/droidmedia"       name="sailfishos-oneplus5/droidmedia"       revision="audiopolicypatch" />
+    <project path="external/audioflingerglue" name="sailfishos-oneplus5/audioflingerglue" revision="cheeseburger" />
+    <project path="hybris/hybris-installer"   name="sailfishos-oneplus5/hybris-installer" revision="master" />
 
 </manifest>
