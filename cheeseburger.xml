@@ -27,6 +27,9 @@
     <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
     <project path="hybris/hybris-boot" name="sailfishos-oneplus5/hybris-boot" revision="cheeseburger" />
 
+    <!-- Custom hybris installer implementation (https://git.io/fjMH9) -->
+    <project path="hybris/hybris-installer" name="sailfishos-oneplus5/hybris-installer" revision="master" />
+
     <!-- The OnePlus 5 requires AudioPolicyService to make camera function properly (https://git.io/fjoBH) -->
     <remove-project path="external/droidmedia" name="sailfishos/droidmedia" />
     <project path="external/droidmedia" name="sailfishos-oneplus5/droidmedia" revision="audiopolicypatch" />
