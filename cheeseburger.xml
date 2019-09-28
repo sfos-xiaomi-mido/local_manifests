@@ -40,10 +40,10 @@
     <project path="hybris/droid-hal-version-cheeseburger" name="sailfishos-oneplus5/droid-hal-version-cheeseburger" revision="master" />
 
     <!-- Additional / patched Sailfish OS middleware -->
-    <project path="hybris/mw/ofono-ril-binder-plugin"          name="sailfishos-oneplus5/ofono-ril-binder-plugin"          revision="seitseminen" />
-    <project path="hybris/mw/nfcd-binder-plugin"               name="sailfishos-oneplus5/nfcd-binder-plugin"               revision="seitseminen" />
-    <project path="hybris/mw/pulseaudio-modules-droid-hidl"    name="sailfishos-oneplus5/pulseaudio-modules-droid-hidl"    revision="v1.0" />
-    <project path="hybris/mw/triambience"                      name="sailfishos-oneplus5/triambience"                      revision="master" />
-    <project path="hybris/mw/onyx-triambience-settings-plugin" name="sailfishos-oneplus5/onyx-triambience-settings-plugin" revision="master" />
+    <project path="hybris/mw/ofono-ril-binder-plugin"          name="sailfishos-oneplus5/ofono-ril-binder-plugin"       revision="seitseminen" />
+    <project path="hybris/mw/nfcd-binder-plugin"               name="sailfishos-oneplus5/nfcd-binder-plugin"            revision="seitseminen" />
+    <project path="hybris/mw/pulseaudio-modules-droid-hidl"    name="sailfishos-oneplus5/pulseaudio-modules-droid-hidl" revision="v1.0" />
+    <project path="hybris/mw/triambience"                      name="sailfishos-oneplus5/triambience"                   revision="master" />
+    <project path="hybris/mw/onyx-triambience-settings-plugin" name="kimmoli/onyx-triambience-settings-plugin"          revision="master" />
 
 </manifest>
