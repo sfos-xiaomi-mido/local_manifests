@@ -25,7 +25,7 @@
 
     <!-- Added fixup mountpoints for cheeseburger/dumpling (https://git.io/JeGB9) -->
     <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
-    <project path="hybris/hybris-boot" name="sailfishos-oneplus5/hybris-boot" revision="cheeseburger" />
+    <project path="hybris/hybris-boot" name="sailfishos-oneplus5/hybris-boot" revision="custom" />
 
     <!-- Custom hybris installer implementation (https://git.io/fjMH9) -->
     <project path="hybris/hybris-installer" name="sailfishos-oneplus5/hybris-installer" revision="hybris-15.1" />
