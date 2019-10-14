@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Device configuration -->
+    <project path="device/oneplus/cheeseburger" name="sailfishos-oneplus5/android_device_oneplus_cheeseburger" revision="hybris-15.1" />
+
+</manifest>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Linux kernel 4.4 (Android) -->
+    <project path="kernel/oneplus/msm8998" name="sailfishos-oneplus5/android_kernel_oneplus_msm8998" revision="hybris-15.1" />
+
+    <!-- Device configuration -->
+    <project path="device/oneplus/msm8998-common" name="sailfishos-oneplus5/android_device_oneplus_msm8998-common" revision="hybris-15.1" />
+
+    <!-- Vendor blobs -->
+    <project path="vendor/oneplus" name="sailfishos-oneplus5/proprietary_vendor_oneplus_msm8998" />
+
+    <!-- Removed the useless bootanimation/ directory which causes build issues without additional dependencies -->
+    <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+    <project path="vendor/lineage" name="sailfishos-oneplus5/android_vendor_lineage" revision="hybris-15.1" />
+
+    <!-- Fixes droidmedia build failing with AudioMix errors (reverted https://git.io/fjNih) -->
+    <remove-project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" />
+    <project path="hardware/qcom/audio-caf/msm8998" name="sailfishos-oneplus5/android_hardware_qcom_audio" revision="hybris-15.1" />
+
+
+    <!-- For libhybris >=15.1 ports -->
+    <project path="external/libhybris" name="mer-hybris/libhybris" revision="master" />
+
+    <!-- Added fixup mountpoints for cheeseburger/dumpling (https://git.io/JeGB9) -->
+    <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
+    <project path="hybris/hybris-boot" name="sailfishos-oneplus5/hybris-boot" revision="custom" />
+
+    <!-- Custom hybris installer implementation (https://git.io/fjMH9) -->
+    <project path="hybris/hybris-installer" name="sailfishos-oneplus5/hybris-installer" revision="hybris-15.1" />
+
+    <!-- The OnePlus 5 requires AudioPolicyService to make camera function properly (https://git.io/fjoBH) -->
+    <remove-project path="external/droidmedia" name="sailfishos/droidmedia" />
+    <project path="external/droidmedia" name="sailfishos-oneplus5/droidmedia" revision="audiopolicy" />
+
+    <!-- Droid HAL & configs -->
+    <project path="rpm/"                                  name="sailfishos-oneplus5/droid-hal-cheeseburger"         revision="hybris-15.1" />
+    <project path="hybris/droid-configs"                  name="sailfishos-oneplus5/droid-config-cheeseburger"      revision="hybris-15.1" />
+    <project path="hybris/droid-hal-version-cheeseburger" name="sailfishos-oneplus5/droid-hal-version-cheeseburger" revision="hybris-15.1" />
+
+</manifest>
