@@ -33,9 +33,4 @@
     <remove-project path="external/droidmedia" name="sailfishos/droidmedia" />
     <project path="external/droidmedia" name="sailfishos-oneplus5/droidmedia" revision="audiopolicy" />
 
-    <!-- Droid HAL & configs -->
-    <project path="rpm/"                                  name="sailfishos-oneplus5/droid-hal-cheeseburger"         revision="hybris-15.1" />
-    <project path="hybris/droid-configs"                  name="sailfishos-oneplus5/droid-config-cheeseburger"      revision="hybris-15.1" />
-    <project path="hybris/droid-hal-version-cheeseburger" name="sailfishos-oneplus5/droid-hal-version-cheeseburger" revision="hybris-15.1" />
-
 </manifest>
