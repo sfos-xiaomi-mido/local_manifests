@@ -15,9 +15,6 @@
     <project path="vendor/lineage" name="sailfishos-oneplus5/android_vendor_lineage" revision="hybris-16.0" />
 
 
-    <!-- For libhybris >=15.1 ports -->
-    <project path="external/libhybris" name="mer-hybris/libhybris" revision="master" />
-
     <!-- Custom hybris installer implementation (https://git.io/fjMH9) -->
     <project path="hybris/hybris-installer" name="sailfishos-oneplus5/hybris-installer" revision="master" />
 
