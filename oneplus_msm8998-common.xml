@@ -24,6 +24,6 @@
     <project path="hybris/hybris-boot" name="sailfishos-oneplus5/hybris-boot" revision="custom" />
 
     <!-- Custom hybris installer implementation (https://git.io/fjMH9) -->
-    <project path="hybris/hybris-installer" name="sailfishos-oneplus5/hybris-installer" revision="master" />
+    <project path="hybris/hybris-installer" name="sailfishos-oneplus5/hybris-installer" revision="hybris-15.1" />
 
 </manifest>
