@@ -15,10 +15,6 @@
     <project path="vendor/lineage" name="sailfishos-oneplus5/android_vendor_lineage" />
 
 
-    <!-- Forked libhybris with Pie audio patch -->
-    <remove-project path="external/libhybris" name="mer-hybris/libhybris" />
-    <project path="external/libhybris" name="sailfishos-oneplus5/libhybris" revision="master" />
-
     <!-- Custom hybris installer implementation (https://git.io/fjMH9) -->
     <project path="hybris/hybris-installer" name="sailfishos-oneplus5/hybris-installer" revision="master" />
 
