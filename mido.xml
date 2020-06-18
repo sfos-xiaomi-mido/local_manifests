@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Device configuration -->
+    <project path="device/xiaomi/mido" name="LineageOS/android_device_xiaomi_mido" revision="lineage-16.0"/>
+
+    <!-- Kernel configuration -->
+    <project path="kernel/xiaomi/mido" name="LineageOS/android_kernel_xiaomi_mido" revision="lineage-16.0"/>
+
+</manifest>
