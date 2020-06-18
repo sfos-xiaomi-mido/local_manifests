@@ -3,9 +3,11 @@
 
     <!-- Device configuration -->
     <project path="device/xiaomi/mido" name="sfos-xiaomi-mido/android_device_xiaomi_mido" revision="lineage-16.0"/>
+    <project path="device/xiaomi/msm8953-common" name="sfos-xiaomi-mido/android_device_xiaomi_msm8953-common" revision="lineage-16.0"/>
 
     <!-- Vendor configuration -->
-    <project path="vendor/xiaomi/mido" name="sfos-xiaomi-mido/android_kernel_xiaomi_mido" revision="lineage-16.0"/>
+    <project path="vendor/xiaomi/mido" name="sfos-xiaomi-mido/android_vendor_xiaomi_mido" revision="lineage-16.0"/>
+    <project path="vendor/xiaomi/msm8953-common" name="sfos-xiaomi-mido/android_vendor_xiaomi_msm8953-common" revision="lineage-16.0"/>
 
     <!-- Kernel configuration -->
     <project path="kernel/xiaomi/mido" name="sfos-xiaomi-mido/android_kernel_xiaomi_mido" revision="lineage-16.0"/>
